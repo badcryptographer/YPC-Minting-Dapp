@@ -286,7 +286,7 @@ const Home: NextPage = () => {
             spacing={6}
             rounded="lg"
           >
-            <HStack spacing={12} w="100%" pl={4}>
+            <HStack spacing={3} w="100%" pl={4}>
               <VStack>
                 <Text fontFamily="Nunito">Remaining</Text>
                 <Text fontFamily="Nunito">
@@ -300,7 +300,7 @@ const Home: NextPage = () => {
                   ETH
                 </Text>
               </VStack>
-              <Box bg="rgb(97, 97, 97)" spacing={1} flexGrow={1} py={3} rounded="lg">
+              <Box bg="rgb(97, 97, 97)" flexGrow={1} py={3} rounded="lg">
                 <Text textAlign="center" fontFamily="Nunito">
                   LIVE
                   <Text as="span" color="red" ml={2}>
