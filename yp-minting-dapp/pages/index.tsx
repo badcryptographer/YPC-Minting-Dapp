@@ -209,7 +209,7 @@ const Home: NextPage = () => {
         <Img src="./tree_3.png" position="absolute" top={0} left={0} h="25vh" />
         <Box
           mx="auto"
-          w="xl"
+          maxW="90vw"
           alignItems="center"
           background="rgba(0, 0, 0, 0.4)"
           border="2px solid rgba(0, 0, 0, 0.2)"
@@ -303,7 +303,7 @@ const Home: NextPage = () => {
               <Box bg="rgb(97, 97, 97)" flexGrow={1} py={3} rounded="lg">
                 <Text textAlign="center" fontFamily="Nunito">
                   LIVE
-                  <Text as="span" color="green" ml={2}>
+                  <Text as="span" color="red" ml={2}>
                     •
                   </Text>
                 </Text>
