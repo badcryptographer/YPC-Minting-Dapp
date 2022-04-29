@@ -303,7 +303,7 @@ const Home: NextPage = () => {
               <Box bg="rgb(97, 97, 97)" flexGrow={1} py={3} rounded="lg">
                 <Text textAlign="center" fontFamily="Nunito">
                   LIVE
-                  <Text as="span" color="red" ml={2}>
+                  <Text as="span" color="green" ml={2}>
                     •
                   </Text>
                 </Text>
