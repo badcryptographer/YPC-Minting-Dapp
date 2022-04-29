@@ -1,0 +1,96 @@
+.main {
+  min-height: 100vh;
+  padding: 2rem 0 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.content {
+  background-color: rgba(121, 188, 203, 0.12);
+  color: white;
+
+  margin-top: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  overflow-x: auto;
+
+  z-index: 100;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+
+.section {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subheading {
+  color: white;
+  font-family: "BubbleGum";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subheadingWhite {
+  color: white;
+  font-family: "BubbleGum";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.qtySection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  row-gap: 10px;
+  font-size: 18px;
+}
+
+.mintButton {
+  font-family: "Nunito";
+  width: 100%;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0;
+  line-height: 1.15;
+  font-size: 16px;
+  padding: 0.8rem 4rem;
+
+  background: linear-gradient(
+    228deg,
+    rgba(11, 181, 215, 1) 0%,
+    rgba(11, 126, 217, 1) 100%
+  );
+  color: white;
+}
+
+.mintButton:hover {
+  transition: all 0.1s ease;
+  background: linear-gradient(
+    228deg,
+    rgba(11, 126, 217, 1) 0%,
+    rgba(11, 181, 215, 1) 100%
+  );
+}
+
+.error {
+  background-color: #f67eaa;
+  padding: 0rem 1rem 1rem 1rem;
+  border-radius: 10px;
+}

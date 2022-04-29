@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: -webkit-linear-gradient(#78a4a5 0%, #d3fca9 100%);
+  background: -o-linear-gradient(#78a4a5 0%, #d3fca9 100%);
+  background: linear-gradient(#78a4a5 0%, #d3fca9 100%);
+  background-repeat: no-repeat;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Lexend Deca", -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
